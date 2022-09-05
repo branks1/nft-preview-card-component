@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit',sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 350px;
+    
+    
+    
+}
+.container img{
+    width: 100%;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px hsl(216, 50%, 10%);
+    margin: 0 1em;
+}
+.card>img{
+    border-radius: 8px;
+}
+h3{
+    color: white;
+    margin: 20px 0px;
+}
+.card-lead{
+    color: hsl(215, 51%, 70%);
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    
+    
+}
+
+.price{
+    display: flex;
+    color:  hsl(178, 100%, 50%);  
+}
+
+.time{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    padding-right: 10px;
+}
+
+.eth-logo{
+    background-image: url(images/icon-ethereum.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+}
+
+.time-image{
+    background-image: url(images/icon-clock.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+}
+
+hr{
+    background-color:hsl(215, 51%, 30%) ;
+    height: 1px;
+    border: none;
+}
+
+.attribution{
+    display: flex;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+
+#attribution-image{
+    background-image: url(images/image-avatar.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 30px;
+    
+            
+}
+
+.attribution span{
+    color: hsl(215, 51%, 70%);
+}
+.name{
+    color: white;
+    margin-left: 10px;
+}
+
